@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    padding-top: 60px;  
+    background-color:whitesmoke;  
+}
+.box{
+    margin: auto;
+    width: 50%;
+    box-shadow:2px black;
+    padding: 20px;
+    justify-items: center;
+}
+.box-header{
+    padding: 50px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+h3{
+    padding-left: 20px;
+    margin-bottom: 1px;
+}
+.box-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px; 
+}
+
+.lblname {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 18px; 
+}
+.lblname h3{
+    width: 320px;
+    padding-bottom: 5px
+}
+
+.txtbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 12px; 
+}
+.txtbox input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+.button{
+padding-top: 100px;
+padding-bottom: 50px;
+
+}
+button{
+    width: 200px;
+    height: 30px;
+    background-color: bisque;
+
+}
+.btntxt{
+    font-size: large;
+    font-weight: bold;
+}
+#message {
+    margin-top: 16px;        
+    font-size: 18px;         
+    font-weight: bold;        
+    text-align: center;       
+    min-height: 24px;        
+    display: block;           
+}
